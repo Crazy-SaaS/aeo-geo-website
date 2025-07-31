@@ -29,7 +29,7 @@ export const Highlight = ({
 export const BLUR_FADE_DELAY = 0.15;
 
 export const siteConfig = {
-  name: "AEO Optimizer",
+  name: "Scout AI",
   description: "AI Search Optimization & GEO Analytics Platform",
   cta: "Start Free Trial",
   url: process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000",
@@ -44,11 +44,11 @@ export const siteConfig = {
     "Generative Engine Optimization",
   ],
   links: {
-    email: "support@calai.app",
-    twitter: "https://twitter.com/calaiapp",
-    discord: "https://discord.gg/calaiapp",
-    github: "https://github.com/calaiapp",
-    instagram: "https://instagram.com/calaiapp",
+    email: "support@scoutai.co",
+    twitter: "https://twitter.com/scoutai",
+    discord: "https://discord.gg/scoutai",
+    github: "https://github.com/scoutai",
+    instagram: "https://instagram.com/scoutai",
   },
   nav: {
     links: [
@@ -685,7 +685,7 @@ export const siteConfig = {
   },
   quoteSection: {
     quote:
-      "AEO Optimizer has revolutionized our AI search visibility. We've seen a 300% increase in brand mentions across ChatGPT and Gemini, driving significant traffic to our site.",
+      "Scout AI has revolutionized our AI search visibility. We've seen a 300% increase in brand mentions across ChatGPT and Gemini, driving significant traffic to our site.",
     author: {
       name: "Sarah Chen",
       role: "Head of Marketing, TechFlow",
@@ -960,7 +960,7 @@ export const siteConfig = {
   faqSection: {
     title: "Frequently Asked Questions",
     description:
-      "Answers to common questions about AEO Optimizer and AI search optimization. If you have any other questions, please don't hesitate to contact us.",
+      "Answers to common questions about Scout AI and AI search optimization. If you have any other questions, please don't hesitate to contact us.",
     faQitems: [
       {
         id: 1,
@@ -976,7 +976,7 @@ export const siteConfig = {
       },
       {
         id: 3,
-        question: "Which AI platforms does AEO Optimizer track?",
+        question: "Which AI platforms does Scout AI track?",
         answer:
           "We monitor your brand visibility across all major AI search platforms including ChatGPT, Google Gemini, Perplexity, Claude, Microsoft Copilot, and other emerging AI search engines. Our platform automatically adds new AI platforms as they become available.",
       },
