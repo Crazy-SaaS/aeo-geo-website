@@ -54,9 +54,8 @@ export const siteConfig = {
     links: [
       { id: 1, name: "Home", href: "#hero" },
       { id: 2, name: "Features", href: "#features" },
-      { id: 3, name: "Analytics", href: "#analytics" },
-      { id: 4, name: "Pricing", href: "#pricing" },
-      { id: 5, name: "FAQ", href: "#faq" },
+      { id: 3, name: "Pricing", href: "#pricing" },
+      { id: 4, name: "FAQ", href: "#faq" },
     ],
   },
   hero: {
@@ -961,43 +960,55 @@ export const siteConfig = {
   faqSection: {
     title: "Frequently Asked Questions",
     description:
-      "Answers to common questions about SkyAgent and its features. If you have any other questions, please don't hesitate to contact us.",
+      "Answers to common questions about AEO Optimizer and AI search optimization. If you have any other questions, please don't hesitate to contact us.",
     faQitems: [
       {
         id: 1,
-        question: "What is an AI Agent?",
+        question: "What is AEO (Answer Engine Optimization)?",
         answer:
-          "An AI Agent is an intelligent software program that can perform tasks autonomously, learn from interactions, and make decisions to help achieve specific goals. It combines artificial intelligence and machine learning to provide personalized assistance and automation.",
+          "AEO is the practice of optimizing your content to appear in AI-generated responses from search engines like ChatGPT, Gemini, Perplexity, and Claude. It focuses on making your brand and content more discoverable when users ask AI systems questions related to your industry or expertise.",
       },
       {
         id: 2,
-        question: "How does SkyAgent work?",
+        question: "How is AEO different from SEO?",
         answer:
-          "SkyAgent works by analyzing your requirements, leveraging advanced AI algorithms to understand context, and executing tasks based on your instructions. It can integrate with your workflow, learn from feedback, and continuously improve its performance.",
+          "While SEO focuses on ranking in traditional search engine results pages, AEO optimizes for AI-generated answers and citations. AEO considers how AI systems interpret, understand, and reference your content when providing responses to users, requiring different optimization strategies and content structuring.",
       },
       {
         id: 3,
-        question: "How secure is my data?",
+        question: "Which AI platforms does AEO Optimizer track?",
         answer:
-          "We implement enterprise-grade security measures including end-to-end encryption, secure data centers, and regular security audits. Your data is protected according to industry best practices and compliance standards.",
+          "We monitor your brand visibility across all major AI search platforms including ChatGPT, Google Gemini, Perplexity, Claude, Microsoft Copilot, and other emerging AI search engines. Our platform automatically adds new AI platforms as they become available.",
       },
       {
         id: 4,
-        question: "Can I integrate my existing tools?",
+        question: "How can I see invisible AI traffic to my website?",
         answer:
-          "Yes, SkyAgent is designed to be highly compatible with popular tools and platforms. We offer APIs and pre-built integrations for seamless connection with your existing workflow tools and systems.",
+          "Our AI Traffic Analytics reveals crawlers from ChatGPT, Gemini, Perplexity, and other AI systems that visit your site but don't show up in Google Analytics. You can see which pages AI systems access most frequently and understand what content they value for citations.",
       },
       {
         id: 5,
         question: "Is there a free trial available?",
         answer:
-          "Yes, we offer a 14-day free trial that gives you full access to all features. No credit card is required to start your trial, and you can upgrade or cancel at any time.",
+          "Yes, we offer a free trial that gives you access to our core features including AI visibility tracking and basic analytics. No credit card is required to start, and you can upgrade to access advanced features like competitive analysis and optimization recommendations.",
       },
       {
         id: 6,
-        question: "How does SkyAgent save me time?",
+        question: "How quickly will I see results from AEO optimization?",
         answer:
-          "SkyAgent automates repetitive tasks, streamlines workflows, and provides quick solutions to common challenges. This automation and efficiency can save hours of manual work, allowing you to focus on more strategic activities.",
+          "AI search platforms update their knowledge more frequently than traditional search engines. You may start seeing improvements in brand mentions and visibility within 2-4 weeks of implementing our optimization recommendations, with significant results typically appearing within 1-3 months.",
+      },
+      {
+        id: 7,
+        question: "Can I track my competitors' AEO performance?",
+        answer:
+          "Yes, our competitive intelligence feature allows you to monitor how your competitors appear in AI search results, compare your visibility against theirs, and identify opportunities where you can gain market share in AI-generated responses.",
+      },
+      {
+        id: 8,
+        question: "What kind of optimization recommendations do you provide?",
+        answer:
+          "We provide AI-powered suggestions for content structure, schema markup, FAQ optimization, entity building, and citation-worthy content creation. Our recommendations are based on analysis of what content performs best across different AI platforms.",
       },
     ],
   },
@@ -1006,10 +1017,10 @@ export const siteConfig = {
     title: "Dominate AI Search. Drive Traffic.",
     backgroundImage: "/agent-cta-background.png",
     button: {
-      text: "Start Your Free Trial Today",
+      text: "Join the waitlist",
       href: "#",
     },
-    subtext: "No credit card required. Cancel anytime.",
+    subtext: "We will notify you when we launch.",
   },
   footerLinks: [
     {
