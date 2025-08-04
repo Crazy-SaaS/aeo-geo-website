@@ -114,7 +114,7 @@ export function Navbar() {
             <Link href="/" className="flex items-center gap-3">
               <Icons.logo className="size-7 md:size-10" />
               <p className="text-lg font-semibold text-primary whitespace-nowrap">
-                Scout AI
+                GrowthOS
               </p>
             </Link>
 
@@ -164,7 +164,7 @@ export function Navbar() {
                   <Link href="/" className="flex items-center gap-3">
                     <Icons.logo className="size-7 md:size-10" />
                     <p className="text-lg font-semibold text-primary">
-                      Scout AI
+                      GrowthOS
                     </p>
                   </Link>
                   <button

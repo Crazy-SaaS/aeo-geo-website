@@ -3,7 +3,7 @@ import { ImageResponse } from "next/og";
 
 // Configuration exports
 export const runtime = "edge";
-export const alt = "Scout AI - AI Search Optimization & GEO Analytics Platform";
+export const alt = "GrowthOS - AI Search Optimization & GEO Analytics Platform";
 export const size = {
   width: 1200,
   height: 630,

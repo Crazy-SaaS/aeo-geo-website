@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: siteConfig.name,
   description: siteConfig.description,
   keywords: [
-    "Scout AI",
+    "GrowthOS",
     "AI",
     "Agent",
     "Magic UI",

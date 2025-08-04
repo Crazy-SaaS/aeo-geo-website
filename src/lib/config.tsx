@@ -29,7 +29,7 @@ export const Highlight = ({
 export const BLUR_FADE_DELAY = 0.15;
 
 export const siteConfig = {
-  name: "Scout AI",
+  name: "GrowthOS",
   description: "AI Search Optimization & GEO Analytics Platform",
   cta: "Start Free Trial",
   url: process.env.NEXT_PUBLIC_APP_URL || "http://localhost:3000",
@@ -59,21 +59,8 @@ export const siteConfig = {
     ],
   },
   hero: {
-    badgeIcon: (
-      <svg
-        width="16"
-        height="16"
-        viewBox="0 0 16 16"
-        fill="none"
-        xmlns="http://www.w3.org/2000/svg"
-        className="dark:fill-white fill-[#364153]"
-      >
-        <path d="M8 1C4.13401 1 1 4.13401 1 8C1 11.866 4.13401 15 8 15C11.866 15 15 11.866 15 8C15 4.13401 11.866 1 8 1ZM8 13.5C4.96243 13.5 2.5 11.0376 2.5 8C2.5 4.96243 4.96243 2.5 8 2.5C11.0376 2.5 13.5 4.96243 13.5 8C13.5 11.0376 11.0376 13.5 8 13.5Z" />
-        <path d="M8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4ZM8 10.5C6.61929 10.5 5.5 9.38071 5.5 8C5.5 6.61929 6.61929 5.5 8 5.5C9.38071 5.5 10.5 6.61929 10.5 8C10.5 9.38071 9.38071 10.5 8 10.5Z" />
-        <path d="M8 6.5C7.17157 6.5 6.5 7.17157 6.5 8C6.5 8.82843 7.17157 9.5 8 9.5C8.82843 9.5 9.5 8.82843 9.5 8C9.5 7.17157 8.82843 6.5 8 6.5Z" />
-      </svg>
-    ),
-    badge: "Introducing AI Search Optimization",
+    badgeIcon: null,
+    badge: "Private Beta",
     title: "Dominate AI Search Results",
     description:
       "Track, optimize, and dominate your brand's visibility across ChatGPT, Gemini, Perplexity, and all major AI search platforms. Get actionable insights to improve your AEO/GEO performance.",
@@ -685,7 +672,7 @@ export const siteConfig = {
   },
   quoteSection: {
     quote:
-      "Scout AI has revolutionized our AI search visibility. We've seen a 300% increase in brand mentions across ChatGPT and Gemini, driving significant traffic to our site.",
+      "GrowthOS has revolutionized our AI search visibility. We've seen a 300% increase in brand mentions across ChatGPT and Gemini, driving significant traffic to our site.",
     author: {
       name: "Sarah Chen",
       role: "Head of Marketing, TechFlow",
@@ -960,7 +947,7 @@ export const siteConfig = {
   faqSection: {
     title: "Frequently Asked Questions",
     description:
-      "Answers to common questions about Scout AI and AI search optimization. If you have any other questions, please don't hesitate to contact us.",
+      "Answers to common questions about GrowthOS and AI search optimization. If you have any other questions, please don't hesitate to contact us.",
     faQitems: [
       {
         id: 1,
@@ -976,7 +963,7 @@ export const siteConfig = {
       },
       {
         id: 3,
-        question: "Which AI platforms does Scout AI track?",
+        question: "Which AI platforms does GrowthOS track?",
         answer:
           "We monitor your brand visibility across all major AI search platforms including ChatGPT, Google Gemini, Perplexity, Claude, Microsoft Copilot, and other emerging AI search engines. Our platform automatically adds new AI platforms as they become available.",
       },
